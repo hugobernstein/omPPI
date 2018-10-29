@@ -4,10 +4,15 @@
 (provide (all-defined-out))
 
 (define headline (default-tag-function 'h1))
+  (define rubrik (default-tag-function 'h1))
 (define subheadline (default-tag-function 'h2))
+  (define sektion (default-tag-function 'h2))
 (define subsubheadline (default-tag-function 'h3))
+  (define undersektion (default-tag-function 'h3))
 (define items (default-tag-function 'ul))
+  (define punkter (default-tag-function 'ul))
 (define item (default-tag-function 'li))
+  (define punkten (default-tag-function 'li))
 ; (define (link url text) `(a ((href ,url)) ,text))
 (define strong (default-tag-function 'strong))
 (define (link href . elements)
@@ -80,7 +85,7 @@
 (define svmssv "Stödvektormaskiner")
 
 ;tag-funktioner
-(define rubrik (default-tag-function 'h2))
+;(define rubrik (default-tag-function 'h2))
 (define underrubrik (default-tag-function 'h3))
 (define linje (default-tag-function 'hr))
 (define descf (default-tag-function 'em))
