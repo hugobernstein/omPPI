@@ -22,7 +22,7 @@
   ◊section[#:id "two" #:class "wrapper alt spotlight style2"]{
     ◊div[#:class "inner"]{
       ◊a[#:href "#" #:class "image"]{
-        ◊img[#:src "svartalv/bilder/pic01.jpg" #:alt ""]
+        ◊img[#:src "svartalv/bilder/tp53-string_hires_image.jpeg" #:alt ""]
       }
       ◊div[#:class "content"]{
         ◊h2[#:class "major"]{Metoder och Vertyg}
@@ -35,7 +35,7 @@
   ◊section[#:id "three" #:class "wrapper spotlight style3"]{
     ◊div[#:class "inner"]{
       ◊a[#:href "https://www.intomics.com/wp-content/uploads/2017/08/sc_iStock-509731276.png" #:class "image"]{
-        ◊img[#:src "svartalv/bilder/pic01.jpg" #:alt ""]
+        ◊img[#:src "svartalv/bilder/sc_iStock-509731276-quadratisch.jpeg" #:alt ""]
       }
       ◊div[#:class "content"]{
         ◊h2[#:class "major"]{Application}
