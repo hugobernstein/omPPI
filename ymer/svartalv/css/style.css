@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: #002b36;
+}
+body h2,
+body h3 {
+  text-transform: capitalize;
+  color: #586e75;
+  margin-top: 0.618rem;
+}
+ul {
+  margin: 1.618rem 0;
+}
+ul li {
+  color: #073642;
+}
+ul li:first-letter {
+  text-transform: capitalize;
+}
+ol.hebrew {
+  list-style-type: hebrew;
+}
+ol.greek {
+  list-style-type: lower-greek;
+}
+ol.cjk {
+  list-style-type: cjk-ideographic;
+}
+a {
+  color: #657b83;
+}
+a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+blockquote {
+  background-color: #839496;
+  text-align: right;
+  padding-right: 0.618rem;
+  color: #fdf6e3;
+  font-style: italic;
+  font-weight: bold;
+}
+blockquote.temp {
+  background-color: #dc322f;
+}
+#avsnitt {
+  width: auto;
+  max-width: 1440px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 83vw;
+  line-height: 1.6;
+  padding: 1.618rem;
+}
+#avsnitt::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#avsnitt::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#avsnitt aside {
+  font-size: 0.618rem;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+#avsnitt aside::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#avsnitt aside:last-child {
+  margin-right: 0%;
+}
+#avsnitt aside h3 {
+  font-size: 1rem;
+  font-style: italic;
+}
+#avsnitt aside a:hover {
+  font-size: 1rem;
+}
+#avsnitt article {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 65.66666666666666%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+#avsnitt article::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#avsnitt article:last-child {
+  margin-right: 0%;
+}
+#avsnitt article p {
+  margin-bottom: 0.618rem;
+}
+#avsnitt article span {
+  font-style: italic;
+  color: #839496;
+}
+.sketch__pattern {
+  background-image: repeating-linear-gradient(-45deg, rgba(147,161,161,0.08), rgba(147,161,161,0.08) 1px, transparent 1px, transparent 10px);
+  background-size: 56px 56px;
+}
+.sketch__pattern-v {
+  background-image: repeating-linear-gradient(45deg, rgba(238,232,213,0.1), rgba(238,232,213,0.1) 1px, transparent 1px, transparent 10px);
+  background-size: 56px 56px;
+}
+.navbar__trans {
+  position: relative;
+  height: 4.854rem;
+}
+.navbar__trans .nav__trans {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+}
+.navbar__trans .nav__trans .item__trans {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 300;
+  line-height: 80px;
+  transition: 0.5s ease;
+}
+.logo__trans {
+  float: left;
+  display: inline-block;
+  margin-top: 0.618rem;
+  margin-left: 0.618rem;
+  width: 4.854rem;
+  height: 4.854rem;
+  transition: 0.5s ease;
+}
+.logo__trans img {
+  width: 100%;
+}
+.title__logo__trans img {
+  height: 2.617924rem;
+}
+.footer__utopi {
+  background-color: #073642;
+  margin-top: 1.618rem;
+  padding: 0.618rem 0;
+  text-align: center;
+  font-weight: 100;
+}
+.footer__utopi h2 {
+  color: #ffda1a;
+}
+.footer__utopi h2 a {
+  color: #fdf6e3;
+}
+.footer__utopi h2 a:hover {
+  color: #268bd2;
+}
+.footer__utopi h2 span {
+  color: #fdf6e3;
+  text-transform: lowercase;
+}
